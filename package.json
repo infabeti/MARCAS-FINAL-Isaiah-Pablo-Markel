@@ -1,0 +1,22 @@
+{
+  "name": "marcas-final-isaiah-pablo-markel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infabeti/MARCAS-FINAL-Isaiah-Pablo-Markel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infabeti/MARCAS-FINAL-Isaiah-Pablo-Markel/issues"
+  },
+  "homepage": "https://github.com/infabeti/MARCAS-FINAL-Isaiah-Pablo-Markel#readme",
+  "dependencies": {
+    "browserify": "^17.0.0"
+  }
+}
