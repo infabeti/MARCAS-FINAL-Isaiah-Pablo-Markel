@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/infabeti/MARCAS-FINAL-Isaiah-Pablo-Markel#readme",
   "dependencies": {
-    "browserify": "^17.0.0"
+    "browserify": "^17.0.0",
+    "express": "^4.17.1",
+    "watchify": "^4.0.0"
   }
 }
