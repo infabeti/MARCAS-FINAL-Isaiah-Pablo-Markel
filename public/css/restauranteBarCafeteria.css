@@ -8,7 +8,13 @@ h2 {
     font-size: 30px;
     font-weight: 600;
 }
+.loginV2 {
+	text-decoration:none;
+}
 
+.registroV2 {
+	text-decoration:none;
+}
 
 h3 {
     font-size: 25px;
@@ -17,7 +23,7 @@ h3 {
 
 h1, h2, h3, h4 {
     font-family: Montserrat;
-    color: #ffffff;
+    color: black;
     text-align: center;
 
 }
@@ -75,8 +81,8 @@ h1, h2, h3, h4 {
 
 /*Fichero de estilos para pantallas de ordenador*/
   body {
-    background: #000;
-    color:white;
+
+    color:black;
     font-size:14px;
     font-family:comic sans ms;}
 
@@ -94,7 +100,7 @@ h1, h2, h3, h4 {
   }
 
   div.etiquetas {
-    color:#6670b3;
+    color:red;
     text-align:center;
     width:222px;
     height:22px;
@@ -124,7 +130,6 @@ h1, h2, h3, h4 {
     margin-right:auto;
     display:block;
     width:1000px;
-    background: #000 url("../Imagenes/otros/gris.jpg") no-repeat center center fixed;
     background-size: cover;
 }
   div.todoNo{height:1300px; width:1000px;}
@@ -289,22 +294,18 @@ h1, h2, h3, h4 {
   td.pro {
     width:300px;
     text-align:center;
-    background:#000;
   }
   td.uni {
     width:150px;
     text-align:center;
-    background:#000;
   }
   td.preUni {
     width:150px;
     text-align:center;
-    background:#000;
   }
   td.preTotal {
     width:150px;
     text-align:center;
-    background:#000;
   }
   tr.proCarrito {
     text-align:center;
@@ -319,7 +320,7 @@ h1, h2, h3, h4 {
     display:yes;
     width:693px;
     height:auto;
-    background:#000;
+
   }
   div.divZonaCompraNo{
     position:relative;
@@ -328,22 +329,18 @@ h1, h2, h3, h4 {
     display:none;
     width:693px;
     height:385px;
-    background:#000;
   }
 
 
   /*Divs del carrito y formularios*/
   #divTotal{
-    background:#000;
   }
   #divDatos{
-    background:#000;
   }
 
   #divPago{
     height: 150px;
     padding-left:10px;
-    background:#000;
   }
   
   #divDatosPersonales0 {
