@@ -4,18 +4,15 @@
         <title>Bar</title>
         <!--lee codigo javascript-->
         <script type="text/javascript" src="js/principalModule.js"></script>
-		<script src="AIzaSyAvlWXDHrwOl7_u2vAdU081PMigoLPIo2A"></script>
-https://goo.gl/maps/PLXp7t4zQMCRsRt9A
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHI12Fh5rjCqdH0N5cxDLJj2tPxu6utE8&callback=initMap"></script>
+
          <!--lee codigo css-->
         <link rel="stylesheet" type="text/css" href="css/restauranteBarCafeteria.css">
     </head>
 
     <body background ="Imagenes/otros/fondo.jpg">
 	
-	<div>
-		<iframe class="maps">
-		</iframe>
-	</div>
+	<div class="mapaBar" onclick="iniciarMapaBar()"></div>
 	
         <a href = "index.html">
            <img class = "volver" src = "Imagenes/otros/VOLVER.png">

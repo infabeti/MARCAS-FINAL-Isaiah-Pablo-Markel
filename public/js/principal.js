@@ -1480,3 +1480,17 @@ function registrarUsuario() {
 		alert("Gracias por su compra, en 24 horas recivira su pedido\nAhora sera redirigido a la pagina de inicio.");
 		window.location.reload()
 	}
+	
+//INICIAR MAPA BAR
+
+	function iniciarMapaBar() {
+		var coord = {lat:43.2590129,lng:-2.9380519};
+		var map = new google.maps.Map(document.getElementById('mapaBar'), {
+			zoom: 10,
+			center: coord
+		});
+		var marker = new google.maps.Marker({
+				position: coord,
+				map:map
+		})
+	}
