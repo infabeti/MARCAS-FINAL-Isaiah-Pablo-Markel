@@ -1,0 +1,54 @@
+[33mcommit 19400fc6a6f3d4df00f840903f36e607309abdac[m[33m ([m[1;36mHEAD -> [m[1;32mrama1[m[33m)[m
+Author: Isaiah Quintana <isaiah.quintanase@elorrieta-errekamari.com>
+Date:   Thu May 20 18:03:32 2021 +0200
+
+    Ultimo punto
+
+[33mcommit 31dd3288d3a06a9faf98c0d883c1eccada2939da[m[33m ([m[1;31morigin/rama1[m[33m)[m
+Author: Isaiah Quintana <isaiah.quintanase@elorrieta-errekamari.com>
+Date:   Fri May 14 16:41:59 2021 +0200
+
+    API de Google Maps en proceso
+
+[33mcommit 2345e5eb87656d362311bdfe529a258223640524[m
+Merge: afb6100 591f94e
+Author: Isaiah Quintana <isaiah.quintanase@elorrieta-errekamari.com>
+Date:   Fri May 14 15:27:18 2021 +0200
+
+    Merge branch 'rama1' of https://github.com/infabeti/MARCAS-FINAL-Isaiah-Pablo-Markel into rama1
+
+[33mcommit afb6100a1b11034534650e366ef3df91d9472b43[m
+Author: Isaiah Quintana <isaiah.quintanase@elorrieta-errekamari.com>
+Date:   Fri May 14 15:26:26 2021 +0200
+
+    browserify, watchify y express instalados
+
+[33mcommit 591f94ed91d9c62f7c7abc8674f6d41c8f7e5916[m
+Author: UsuMarkel <markel.garciari@elorrieta-errekamari.com>
+Date:   Thu May 13 17:50:05 2021 +0200
+
+    cambios en la navegacion entre paginas
+
+[33mcommit 528ec5b609435e7387863ef7d90a0a61b3ce9261[m
+Author: UsuMarkel <markel.garciari@elorrieta-errekamari.com>
+Date:   Thu May 13 17:45:38 2021 +0200
+
+    acabado de html y css de todo menos login y registro
+
+[33mcommit 5cbdda3071877dc618d27be33fee2237e65fb22b[m
+Author: Isaiah Quintana <isaiah.quintanase@elorrieta-errekamari.com>
+Date:   Fri May 7 16:26:52 2021 +0200
+
+    Servidor node instalado y levantado    +    manuales de browserify, express y watchify añadidos en la carpeta public/manuales
+
+[33mcommit e19fdf5095abc9e82c3ee118f151ef0477604b3e[m
+Author: UsuMarkel <markel.garciari@elorrieta-errekamari.com>
+Date:   Fri May 7 16:15:24 2021 +0200
+
+    crear rama1
+
+[33mcommit d5d1c1e24b9f99baffea83db0221886c7745f7be[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: infabeti <43011234+infabeti@users.noreply.github.com>
+Date:   Fri May 7 16:04:17 2021 +0200
+
+    Initial commit
