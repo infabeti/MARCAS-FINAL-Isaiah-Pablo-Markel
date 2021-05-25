@@ -2,8 +2,10 @@
 <html>
 <head>
 	<title>Login</title>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/registroLogin.css">
-	<script language="JavaScript" type="text/javascript" src="main.js"></script>
+	<script language="JavaScript" type="text/javascript" src="js/Login.js"></script>
 </head>
 
 	<body background="Imagenes/otros/gris.jpg">
@@ -20,22 +22,41 @@
 		<br>
 		<br>
 		<br>
-		<div class = "cuerpo">
-				<h1>PANTALLA  DE  LOGIN</h1>
+		<div class="ctn-all">
+			<div class = "cuerpo">
+			 <h1>PANTALLA  DE  LOGIN</h1>
+					<form>
+
+        				<label for="userName">Email</label>
+        				<input type="email" id="userName" placeholder="Email" required>
+        				<br>
+        				<br>
+        				<label for="userPw">Contraseña</label>
+       		 			<input type="password" id= "userPw" placeholder="Contraseña" required>
+        				<div id="remember">
+            				<input type="checkbox" value="lsRememberMe" id="rememberMe"
+                   				style="display: inline-block;">Recuerdame
+            				
+        				</div>
+
+        				<input id= "login_btn" type="submit" value="Inicia" onclick="check()">
+
+    				</form>
+				<h1></h1>
 			<br>
 			<br>
+
 			<a>
-				<h2>Nombre de usuario:</h2>
+				<h2>Correo</h2>
 			</a>
-				<input type="text" id="usuario">
-			<br>
+				<input type="text" id="Correo">
 			<a>
 				<h2>Contrase&ntilde;a:</h2>
 			</a>
-				<input type="text" id="contrasenya">
+				<input type="password" id="contrasenya">
 			<br>
 			<br>
-				<input type="button" value="Aceptar" onclick="crearUsuario();">
+				<input type="button" value="Aceptar" onclick="IniciarSesion();">
 		</div>
 	</body>
 </html>
