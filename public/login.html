@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/registroLogin.css">
+	<script language="JavaScript" type="text/javascript" src="js/Login.js"></script>
+</head>
+
+	<body background="Imagenes/otros/gris.jpg">
+		
+		<a href = "index.html">
+	        <img class = "volver" src = "Imagenes/otros/VOLVER.png">
+	    </a>
+		<br>
+		<a href = "index.html">
+	        <img class = "logo" src = "Imagenes/otros/logo.png">
+	    </a>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="ctn-all">
+			<div class = "cuerpo">
+			 <h1>PANTALLA  DE  LOGIN</h1>
+					<form>
+
+        				<label for="userName">Email</label>
+        				<input type="email" id="userName" placeholder="Email" required>
+        				<br>
+        				<br>
+        				<label for="userPw">Contraseña</label>
+       		 			<input type="password" id= "userPw" placeholder="Contraseña" required>
+        				<div id="remember">
+            				<input type="checkbox" value="lsRememberMe" id="rememberMe"
+                   				style="display: inline-block;">Recuerdame
+            				
+        				</div>
+
+        				<input id= "login_btn" type="submit" value="Iniciar sesión" onclick="check()">
+    				</form>
+				<h1></h1>
+			<br>
+			<br>
+		</div>
+	</body>
+</html>

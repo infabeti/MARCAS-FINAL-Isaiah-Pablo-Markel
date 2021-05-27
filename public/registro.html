@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/registroLogin.css">
+	<script language="JavaScript" type="text/javascript" src="js/Registro.js"></script>
+</head>
+
+	<body>
+		
+		<a href = "index.html">
+	        <img class = "volver" src = "Imagenes/otros/VOLVER.png">
+	    </a>
+		<br>
+		<a href = "index.html">
+	        <img class = "logo" src = "Imagenes/otros/logo.png">
+	    </a>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	<div class="ctn-all">
+		<div class = "cuerpo">
+			<h1>PANTALLA  DE  REGISTRO</h1>
+			<form>
+				 <label  for="name">Correo Electornico</label>
+				<br>
+				<br>
+      		 	<input type="email" id="name" placeholder="Email" required>
+        		<br>
+        		<br>
+        		<label for="pw">Contraseña</label>
+        		<br>
+        		<br>
+        		<input type="password"
+            	   id= "pw"
+            	   placeholder="Contraseña" required>
+
+        		<ul class="text">
+            		<li class="length">Maximo 8 caracteres</li>
+            		<li class="lowercase">Almenos una letra minuscula</li>
+            		<li class="uppercase">Almenos una letra mayuscula </li>
+            		<li class="special">Alemnos un caracter especial </li>
+        		</ul>
+        		<input id="rgstr_btn" type="submit" value="Registrate" onclick="store()">
+
+    		</form>
+		</div>
+	</div>	
+	</body>
+</html>
